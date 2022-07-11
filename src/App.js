@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './componentes/Boton';
+import Pantalla from './componentes/Pantalla';
 import KemetecLogo from "./imagenes/kemetec-logo.png";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         />
       </div>
       <div className="contenedor-calculadora">
+        <Pantalla />
         <div className="fila">
           <Boton>1</Boton>
           <Boton>2</Boton>
