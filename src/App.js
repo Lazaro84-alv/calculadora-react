@@ -1,7 +1,9 @@
 import './App.css';
 import Boton from './componentes/Boton';
+import BotonClear from './componentes/BotonClear';
 import Pantalla from './componentes/Pantalla';
 import KemetecLogo from "./imagenes/kemetec-logo.png";
+
 
 function App() {
   return (
@@ -39,7 +41,9 @@ function App() {
           <Boton>.</Boton>
           <Boton>/</Boton>
         </div>
-        <div className="fila"></div>
+        <div className="fila">
+          <BotonClear>Clear</BotonClear>
+        </div>
       </div>
     </div>
   );
